@@ -1,1 +1,13 @@
+This is the workflow of the CNN
 
+Code build with following environment:
+
+python                    3.8.17
+opencv                    4.8.1
+matplotlib                3.7.3 
+umap-learn                0.5.4
+numpy                     1.24.4
+
+For a trail training, type following in the terminal:
+
+python run.py --input_file data/mosaic_matrix_mouse.txt --input_shape 150 150 872 --DR_mode umap --n_components 3 --use_scribble 0 --output_file output_mouse.txt
