@@ -1,0 +1,2 @@
+"pathwayName","pathwayId","pathwaySource","Pval","Num_In_Path","Total_In_Path","Pval_FDR","Pval_Holm","analytes","cluster_assignment","rampids"
+"Urea cycle and metabolism of amino groups","WP497","wiki",0.00014057,4,32,0.03851535,0.03851535,"Spermidine;Citrulline; L-Citrulline;Creatine;Spermine;Spermine; SPN;Spermidine; SPM;Creatine; CRET;D-Citrulline;Citrulline","Did not cluster","RAMP_P_000053021"

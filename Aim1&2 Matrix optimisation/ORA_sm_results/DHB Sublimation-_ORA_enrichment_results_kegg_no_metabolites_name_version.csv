@@ -1,0 +1,15 @@
+"","kegg classifier","Detected versus pathway total ratio","kegg_pathwayname","pathwayId","Pval","Num_In_Path","Total_In_Path","Pval_FDR","Pval_Holm"
+"1","1.3 Lipid metabolism",0.1875,"Biosynthesis of unsaturated fatty acids","map01040",0.0341846767627431,3,16,0.478585474678403,0.478585474678403
+"2","1.6 Metabolism of other amino acids",0.166666666666667,"Taurine and Hypotaurine Metabolism","map00430",0.105759612460114,2,12,0.704296374785175,1
+"3","1.6 Metabolism of other amino acids",0.111111111111111,"Glutathione metabolism","map00480",0.207184212848636,2,18,0.704296374785175,1
+"4","1.6 Metabolism of other amino acids",0.0869565217391304,"Selenocompound metabolism","map00450",0.29835421016972,2,23,0.704296374785175,1
+"5","1.5 Amino acid metabolism",0.0666666666666667,"Alanine, aspartate and glutamate metabolism","map00250",0.312297313282161,4,60,0.704296374785175,1
+"6","1.4 Nucleotide metabolism",0.0576923076923077,"Pyrimidine metabolism","map00240",0.457368039142384,3,52,0.704296374785175,1
+"7","1.5 Amino acid metabolism",0.0555555555555556,"Tryptophan metabolism","map00380",0.484146902749733,3,54,0.704296374785175,1
+"8","1.5 Amino acid metabolism",0.0571428571428571,"Histidine metabolism","map00340",0.507818494909045,2,35,0.704296374785175,1
+"9","1.3 Lipid metabolism",0.0555555555555556,"Fatty acid Metabolism","map00071",0.523708678306136,2,36,0.704296374785175,1
+"10","1.1 Carbohydrate metabolism",0.0526315789473684,"Pyruvate metabolism","map00620",0.554559451773161,2,38,0.704296374785175,1
+"11","1.3 Lipid metabolism",0.05,"Primary bile acid biosynthesis","map00120",0.561180108889609,3,60,0.704296374785175,1
+"12","1.3 Lipid metabolism",0.0454545454545455,"Steroid Biosynthesis","map00100",0.639262009584022,2,44,0.704296374785175,1
+"13","1.4 Nucleotide metabolism",0.0441176470588235,"Purine metabolism","map00230",0.653989490871948,3,68,0.704296374785175,1
+"14","1.3 Lipid metabolism",0.03125,"Arachidonic Acid Metabolism","map00590",0.837392600283329,2,64,0.837392600283329,1

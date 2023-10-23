@@ -1,0 +1,2 @@
+"pathwayName","pathwayId","pathwaySource","Pval","Num_In_Path","Total_In_Path","Pval_FDR","Pval_Holm","analytes","cluster_assignment","rampids"
+"Caffeine and theobromine metabolism","WP3633","wiki",1.1e-07,6,11,0.0001286,0.0001286,"3,7-Dimethyluric acid;1,7-Dimethyluric acid;7-Methylxanthine;1-Methylxanthine;1-Methyluric acid;7-Methyluric acid","Did not cluster","RAMP_P_000053725"

@@ -1,0 +1,91 @@
+"","kegg classifier","Detected versus pathway total ratio","kegg_pathwayname","pathwayId","Pval","Num_In_Path","Total_In_Path","Pval_FDR","Pval_Holm","Detected_metabolites"
+"1","1.3 Lipid metabolism",0.1875,"Biosynthesis of unsaturated fatty acids","map01040",0.0341846767627431,3,16,0.478585474678403,0.478585474678403,"Caprylic acid;
+Dodecanoic acid;
+Capric acid;
+Caprylic acid;
+DDCX;
+Capric acid;
+Capric acid"
+"2","1.6 Metabolism of other amino acids",0.166666666666667,"Taurine and Hypotaurine Metabolism","map00430",0.105759612460114,2,12,0.704296374785175,1,"Taurine;
+Cysteic acid;
+TAU;
+CYSA;
+(R)-cysteate"
+"3","1.6 Metabolism of other amino acids",0.111111111111111,"Glutathione metabolism","map00480",0.207184212848636,2,18,0.704296374785175,1,"Glutathione;
+Glutathione;
+GSSG;
+Glutathionate(1-)"
+"4","1.6 Metabolism of other amino acids",0.0869565217391304,"Selenocompound metabolism","map00450",0.29835421016972,2,23,0.704296374785175,1,"Adenosine monophosphate;
+Adenosine monophosphate;
+Gamma-Glutamyl-Se-methylselenocysteine;
+Vidarabine phosphate"
+"5","1.5 Amino acid metabolism",0.0666666666666667,"Alanine, aspartate and glutamate metabolism","map00250",0.312297313282161,4,60,0.704296374785175,1,"Adenosine monophosphate;
+Glutathione;
+N-Acetyl-L-aspartic acid;
+Adenosine monophosphate;
+Glutathione;
+GSSG;
+N-Acetyl-L-aspartic acid;
+Glutathionate(1-);
+Vidarabine phosphate"
+"6","1.4 Nucleotide metabolism",0.0576923076923077,"Pyrimidine metabolism","map00240",0.457368039142384,3,52,0.704296374785175,1,"Deoxyribose 1-phosphate;
+Uridine 5'-monophosphate;
+3'-AMP;
+UMP;
+Deoxyribose 1-phosphate;
+3'-AMP;
+2-deoxy-D-ribose-1P;
+[(2S,3R,4R,5R)-5-(2,4-Dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate;
+[(2R,5R)-5-(6-Aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate"
+"7","1.5 Amino acid metabolism",0.0555555555555556,"Tryptophan metabolism","map00380",0.484146902749733,3,54,0.704296374785175,1,"5-Hydroxykynurenine;
+L-3-Hydroxykynurenine;
+5-Hydroxykynurenine;
+3'-AMP;
+3-HK;
+3-hydroxy-L-kynurenine;
+3'-AMP;
+Hydroxykynurenine;
+[(2R,5R)-5-(6-Aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate"
+"8","1.5 Amino acid metabolism",0.0571428571428571,"Histidine metabolism","map00340",0.507818494909045,2,35,0.704296374785175,1,"Adenosine monophosphate;
+Formiminoglutamic acid;
+Adenosine monophosphate;
+Vidarabine phosphate;
+n-formimidoyl-glutamic acid"
+"9","1.3 Lipid metabolism",0.0555555555555556,"Fatty acid Metabolism","map00071",0.523708678306136,2,36,0.704296374785175,1,"Palmitic acid;
+Adenosine monophosphate;
+hexadecanoic acid;
+Adenosine monophosphate;
+hexadecanoic acid;
+Vidarabine phosphate"
+"10","1.1 Carbohydrate metabolism",0.0526315789473684,"Pyruvate metabolism","map00620",0.554559451773161,2,38,0.704296374785175,1,"Adenosine monophosphate;
+Glutathione;
+Adenosine monophosphate;
+Glutathione;
+Glutathionate(1-);
+Vidarabine phosphate"
+"11","1.3 Lipid metabolism",0.05,"Primary bile acid biosynthesis","map00120",0.561180108889609,3,60,0.704296374785175,1,"Taurine;
+Palmitic acid;
+3'-AMP;
+hexadecanoic acid;
+TAU;
+3'-AMP;
+hexadecanoic acid;
+[(2R,5R)-5-(6-Aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate"
+"12","1.3 Lipid metabolism",0.0454545454545455,"Steroid Biosynthesis","map00100",0.639262009584022,2,44,0.704296374785175,1,"Palmitic acid;
+Mevalonic acid-5P;
+Phosphomevalonic acid;
+hexadecanoic acid;
+(R)-Mevalonic acid 5-phosphate;
+hexadecanoic acid;
+3R-methyl-3-hydroxypentanoic acid 5-phosphate"
+"13","1.4 Nucleotide metabolism",0.0441176470588235,"Purine metabolism","map00230",0.653989490871948,3,68,0.704296374785175,1,"Deoxyribose 1-phosphate;
+Adenosine monophosphate;
+2'-Deoxyguanosine 5'-monophosphate;
+Adenosine monophosphate;
+Deoxyribose 1-phosphate;
+2-deoxy-D-ribose-1P;
+Vidarabine phosphate"
+"14","1.3 Lipid metabolism",0.03125,"Arachidonic Acid Metabolism","map00590",0.837392600283329,2,64,0.837392600283329,1,"Glutathione;
+Glutathione;
+GSSG;
+Glutathionate(1-)"

@@ -1,0 +1,38 @@
+"","kegg classifier","Detected versus pathway total ratio","kegg_pathwayname","pathwayId","Pval","Num_In_Path","Total_In_Path","Pval_FDR","Pval_Holm"
+"1","1.5 Amino acid metabolism",0.260869565217391,"Tyrosine metabolism","map00350",0.00264759389169274,18,69,0.0686012130890012,0.0979609739926314
+"2","1.5 Amino acid metabolism",0.266666666666667,"Alanine, aspartate and glutamate metabolism","map00250",0.00370817368048655,16,60,0.0686012130890012,0.133494252497516
+"3","1.6 Metabolism of other amino acids",0.333333333333333,"Glutathione metabolism","map00480",0.0258844447817274,6,18,0.229788479252567,0.905955567360459
+"4","1.4 Nucleotide metabolism",0.220588235294118,"Purine metabolism","map00230",0.030984099489241,15,68,0.229788479252567,1
+"5","1.1 Carbohydrate metabolism",0.291666666666667,"Fructose and mannose metabolism","map00051",0.0340015768992634,7,24,0.229788479252567,1
+"6","1.1 Carbohydrate metabolism",0.257142857142857,"Amino Sugar Metabolism","map00520",0.0372629966355514,9,35,0.229788479252567,1
+"7","1.5 Amino acid metabolism",0.22,"Arginine and proline metabolism","map00330",0.0637232821113749,11,50,0.33369574072956,1
+"8","1.5 Amino acid metabolism",0.215686274509804,"Methionine Metabolism","map00270",0.0721504304280129,11,51,0.33369574072956,1
+"9","1.5 Amino acid metabolism",0.214285714285714,"Phenylalanine and Tyrosine Metabolism","map00360",0.16987333439299,6,28,0.698368152504515,1
+"10","1.6 Metabolism of other amino acids",0.25,"Taurine and Hypotaurine Metabolism","map00430",0.217502163786606,3,12,0.804758006010441,1
+"11","1.8 Metabolism of cofactors and vitamins",0.1875,"Pantothenate and CoA Biosynthesis","map00770",0.376460558234784,3,16,0.993686946310712,1
+"12","1.2 Energy metabolism",0.16,"Nitrogen metabolism","map00910",0.452080362203526,4,25,0.993686946310712,1
+"13","1.3 Lipid metabolism",0.166666666666667,"alpha-Linolenic acid metabolism","map00592",0.454893617911626,3,18,0.993686946310712,1
+"14","1.5 Amino acid metabolism",0.148148148148148,"Tryptophan metabolism","map00380",0.461816409978174,8,54,0.993686946310712,1
+"15","1.1 Carbohydrate metabolism",0.148148148148148,"Glycolysis / Gluconeogenesis","map00010",0.515891514986233,4,27,0.993686946310712,1
+"16","1.6 Metabolism of other amino acids",0.137931034482759,"beta-Alanine metabolism","map00410",0.576192675978171,4,29,0.993686946310712,1
+"17","1.8 Metabolism of cofactors and vitamins",0.137931034482759,"Nicotinate and nicotinamide metabolism","map00760",0.576192675978171,4,29,0.993686946310712,1
+"18","1.4 Nucleotide metabolism",0.134615384615385,"Pyrimidine metabolism","map00240",0.582862607720978,7,52,0.993686946310712,1
+"19","1.1 Carbohydrate metabolism",0.142857142857143,"Butyrate Metabolism","map00650",0.590759918181157,2,14,0.993686946310712,1
+"20","1.6 Metabolism of other amino acids",0.130434782608696,"Selenocompound metabolism","map00450",0.629212437523743,3,23,0.993686946310712,1
+"21","1.8 Metabolism of cofactors and vitamins",0.130434782608696,"One carbon pool by folate","map00670",0.629212437523743,3,23,0.993686946310712,1
+"22","1.3 Lipid metabolism",0.125,"Biosynthesis of unsaturated fatty acids","map01040",0.666101293347086,2,16,0.993686946310712,1
+"23","1.5 Amino acid metabolism",0.125,"Glycine, serine and threonine metabolism","map00260",0.666688022799534,7,56,0.993686946310712,1
+"24","1.8 Metabolism of cofactors and vitamins",0.117647058823529,"Vitamin B6 Metabolism","map00750",0.699437856172575,2,17,0.993686946310712,1
+"25","1.8 Metabolism of cofactors and vitamins",0.117647058823529,"Riboflavin Metabolism","map00740",0.699437856172575,2,17,0.993686946310712,1
+"26","1.5 Amino acid metabolism",0.114285714285714,"Histidine metabolism","map00340",0.72930109302416,4,35,0.993686946310712,1
+"27","1.2 Energy metabolism",0.105263157894737,"Sulfur metabolism","map00920",0.75793155735273,2,19,0.993686946310712,1
+"28","1.5 Amino acid metabolism",0.0980392156862745,"Valine, leucine and isoleucine degradation","map00280",0.85346860480243,5,51,0.993686946310712,1
+"29","1.1 Carbohydrate metabolism",0.0882352941176471,"Propanoate metabolism","map00640",0.867856237007867,3,34,0.993686946310712,1
+"30","1.1 Carbohydrate metabolism",0.08,"Galactose Metabolism","map00052",0.878486393487325,2,25,0.993686946310712,1
+"31","1.1 Carbohydrate metabolism",0.0769230769230769,"Citric Acid Cycle","map00020",0.89219796452308,2,26,0.993686946310712,1
+"32","1.1 Carbohydrate metabolism",0.0789473684210526,"Pyruvate metabolism","map00620",0.91333337109603,3,38,0.993686946310712,1
+"33","1.1 Carbohydrate metabolism",0.0645161290322581,"Phosphatidylinositol Phosphate Metabolism","map00562",0.941757203485719,2,31,0.993686946310712,1
+"34","1.1 Carbohydrate metabolism",0.0754716981132075,"Starch and sucrose metabolism","map00500",0.949731608058766,4,53,0.993686946310712,1
+"35","1.3 Lipid metabolism",0.0555555555555556,"Fatty acid Metabolism","map00071",0.96929218943028,2,36,0.993686946310712,1
+"36","1.3 Lipid metabolism",0.0625,"Arachidonic Acid Metabolism","map00590",0.985042615415358,4,64,0.993686946310712,1
+"37","1.3 Lipid metabolism",0.05,"Primary bile acid biosynthesis","map00120",0.993686946310712,3,60,0.993686946310712,1

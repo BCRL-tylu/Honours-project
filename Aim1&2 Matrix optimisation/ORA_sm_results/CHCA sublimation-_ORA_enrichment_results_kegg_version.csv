@@ -1,0 +1,336 @@
+"","kegg classifier","Detected versus pathway total ratio","kegg_pathwayname","pathwayId","Pval","Num_In_Path","Total_In_Path","Pval_FDR","Pval_Holm","Detected_metabolites"
+"1","1.10 Biosynthesis of other secondary metabolites",0.421052631578947,"Caffeine Metabolism","map00232",0.000614063397949,8,19,0.021492218928215,0.021492218928215,"3,7-Dimethyluric acid;
+1,7-Dimethyluric acid;
+7-Methylxanthine;
+Caffeine;
+1-Methylxanthine;
+1-Methyluric acid;
+5-Acetylamino-6-formylamino-3-methyluracil;
+7-Methyluric acid"
+"2","1.5 Amino acid metabolism",0.202898550724638,"Tyrosine metabolism","map00350",0.0196849162376377,14,69,0.344486034158659,0.669287152079681,"Pyrocatechol;
+Vanillylmandelic acid;
+4-Hydroxyphenylpyruvic acid;
+3-Methoxy-4-hydroxyphenylglycolaldehyde;
+4-Fumarylacetoacetic acid;
+Homovanillic acid;
+5,6-Dihydroxyindole;
+Ascorbic acid;
+Homocysteine;
+Topaquinone;
+Iodotyrosine;
+Ammonia;
+Guaiacol;
+Vanillylmandelic acid;
+4-Hydroxyphenylpyruvic acid;
+Catechol;
+5,6-Dihydroxyindole;
+2-Hydroxy-3-(4-hydroxyphenyl)propenoic acid;
+3-iodo-L-tyrosine;
+Ascorbic acid;
+4,6-dioxo-2E-octenedioic acid;
+4,6-dioxo-2E-octenedioic acid;
+Maleylacetoacetic acid;
+4-fumarylacetoacetate(2-);
+3,4-Dihydroxy-5-[(S)-1,2-dihydroxyethyl]furan-2(5H)-one"
+"3","1.3 Lipid metabolism",0.222222222222222,"alpha-Linolenic acid metabolism","map00592",0.146311382138069,4,18,0.997517714363466,1,"Cis-8,11,14,17-Eicosatetraenoic acid;
+Arachidonic acid;
+Docosahexaenoic acid;
+5Z,8Z,11Z,14Z-eicosatetraenoic acid;
+4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoic acid;
+5,8,11,14-eicosatetraenoic acid;
+8,11,14,17-eicosatetraenoic acid;
+20:4(8Z,11Z,14Z,17Z);
+5,8,11,14-Icosatetraenoic Acid;
+(4E,7E,10Z,13E,16E,19E)-Docosa-4,7,10,13,16,19-hexaenoic acid;
+di-homo-gamma-linolenate"
+"4","1.8 Metabolism of cofactors and vitamins",0.1875,"Pantothenate and CoA Biosynthesis","map00770",0.282106307623884,3,16,0.997517714363466,1,"Pantetheine 4'-phosphate;
+L-Cysteine;
+Adenosine monophosphate;
+D-Cysteine;
+cysteine;
+Adenosine monophosphate;
+Cysteine;
+Pantetheine 4'-phosphate;
+Vidarabine phosphate"
+"5","1.8 Metabolism of cofactors and vitamins",0.176470588235294,"Vitamin B6 Metabolism","map00750",0.315915260379295,3,17,0.997517714363466,1,"Ammonia;
+4-Pyridoxic acid;
+4-Pyridoxic acid;
+2-Methyl-3-hydroxy-5-formylpyridine-4-carboxylate"
+"6","1.5 Amino acid metabolism",0.142857142857143,"Glycine, serine and threonine metabolism","map00260",0.32020493246421,8,56,0.997517714363466,1,"(S)-Lipoic acid;
+(R)-Lipoic acid;
+Dihydrolipoate;
+L-Cysteine;
+Racemethionine;
+Homocysteine;
+Adenosine monophosphate;
+L-Methionine;
+Ammonia;
+D-Cysteine;
+cysteine;
+Adenosine monophosphate;
+LIPA;
+Methionine;
+Cysteine;
+Cystathione;
+(R)-Lipoic acid;
+Vidarabine phosphate;
+LIPA"
+"7","1.2 Energy metabolism",0.16,"Nitrogen metabolism","map00910",0.329539701958039,4,25,0.997517714363466,1,"(S)-Lipoic acid;
+(R)-Lipoic acid;
+Dihydrolipoate;
+Adenosine monophosphate;
+Ammonia;
+Adenosine monophosphate;
+LIPA;
+(R)-Lipoic acid;
+Vidarabine phosphate;
+LIPA"
+"8","1.1 Carbohydrate metabolism",0.153846153846154,"Citric Acid Cycle","map00020",0.357776671179706,4,26,0.997517714363466,1,"Succinic acid;
+(1R,2R)-Isocitric acid;
+Isocitric acid;
+D-threo-Isocitric acid;
+D-Malic acid;
+Citric acid;
+Malic acid;
+D-threo-Isocitric acid;
+Butanedioic acid;
+D-threo-isocitrate;
+CIT;
+MAL;
+(S)-malate;
+D-threo-Isocitrate;
+Butanedioic acid"
+"9","1.5 Amino acid metabolism",0.137254901960784,"Methionine Metabolism","map00270",0.380520632259964,7,51,0.997517714363466,1,"L-Cysteine;
+2-Oxo-4-methylthiobutanoic acid;
+Racemethionine;
+Homocysteine;
+Adenosine monophosphate;
+L-Methionine;
+Ammonia;
+D-Cysteine;
+cysteine;
+Adenosine monophosphate;
+Methionine;
+Cysteine;
+Cystathione;
+2-Oxo-4- methylthiobutanoic acid;
+Vidarabine phosphate"
+"10","Deleted pathways from Kegg",0.148148148148148,"Androgen and Estrogen Metabolism","map00150",0.38603294377109,4,27,0.997517714363466,1,"Sulfate;
+Dehydroandrosterone;
+Testosterone;
+Dihydrotestosterone;
+Dehydroepiandrosterone;
+5beta-Dihydroepitestosterone;
+5b-Dihydrotestosterone;
+17beta-hydroxy-5alpha-androstan-3-one;
+17beta-hydroxyandrost-4-en-3-one;
+SO4(2-);
+3beta-hydroxyandrost-5-en-17-one;
+5b-Dihydrotestosterone;
+Testosterone-d3;
+3beta-hydroxyandrost-5-en-17-one;
+Epitestosterone;
+17beta-hydroxy-androstan-3-one;
+17beta-hydroxy-5beta-androstan-3-one;
+(17beta)-17-Hydroxyandrostan-3-one"
+"11","1.5 Amino acid metabolism",0.133333333333333,"Alanine, aspartate and glutamate metabolism","map00250",0.396592930332142,8,60,0.997517714363466,1,"Succinic acid;
+Argininosuccinic acid;
+L-Cysteine;
+Adenosine monophosphate;
+Glutathione;
+Ammonia;
+GMP;
+D-Cysteine;
+N-Acetyl-L-aspartic acid;
+cysteine;
+Argininosuccinic acid;
+Butanedioic acid;
+Adenosine monophosphate;
+Glutathione;
+guanosine 5'-monophosphate;
+Cysteine;
+N-Acetyl-L-aspartic acid;
+Butanedioic acid;
+Guanosine monophosphate;
+Glutathionate(1-);
+Vidarabine phosphate;
+ARGININOSUCCINATE;
+[(2R,5R)-5-(2-Amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate"
+"12","1.5 Amino acid metabolism",0.142857142857143,"Phenylalanine and Tyrosine Metabolism","map00360",0.414166846678023,4,28,0.997517714363466,1,"4-Hydroxyphenylpyruvic acid;
+4-Fumarylacetoacetic acid;
+Adenosine monophosphate;
+Ammonia;
+4-Hydroxyphenylpyruvic acid;
+Adenosine monophosphate;
+4,6-dioxo-2E-octenedioic acid;
+4,6-dioxo-2E-octenedioic acid;
+Maleylacetoacetic acid;
+4-fumarylacetoacetate(2-);
+Vidarabine phosphate"
+"13","1.6 Metabolism of other amino acids",0.166666666666667,"Taurine and Hypotaurine Metabolism","map00430",0.416011870005014,2,12,0.997517714363466,1,"Taurine;
+L-Cysteine;
+D-Cysteine;
+cysteine;
+TAU;
+Cysteine"
+"14","1.5 Amino acid metabolism",0.12962962962963,"Tryptophan metabolism","map00380",0.442535444770616,7,54,0.997517714363466,1,"Formylkynurenine;
+2-Amino-3-carboxymuconic acid semialdehyde;
+5-Hydroxyindoleacetaldehyde;
+3-Hydroxyanthranilic acid;
+3'-AMP;
+Indoleacetic acid;
+2-Aminomuconic acid semialdehyde;
+3-HAA;
+N'-Formylkynurenine;
+3'-AMP;
+N'-Formylkynurenine;
+(5-hydroxyindol-3-yl)acetaldehyde;
+L-Formylkynurenine;
+[(2R,5R)-5-(6-Aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate"
+"15","1.1 Carbohydrate metabolism",0.142857142857143,"Butyrate Metabolism","map00650",0.498484209458911,2,14,0.997517714363466,1,"Succinic acid;
+Adenosine monophosphate;
+Butanedioic acid;
+Adenosine monophosphate;
+Butanedioic acid;
+Vidarabine phosphate"
+"16","1.6 Metabolism of other amino acids",0.130434782608696,"Selenocompound metabolism","map00450",0.513193109444267,3,23,0.997517714363466,1,"Selenocystathionine;
+Adenosine monophosphate;
+Ammonia;
+Adenosine monophosphate;
+L-selenocystathionine;
+SeCysta;
+Vidarabine phosphate"
+"17","1.8 Metabolism of cofactors and vitamins",0.117647058823529,"Riboflavin Metabolism","map00740",0.607633930954203,2,17,0.997517714363466,1,"Hydroquinone;
+Adenosine monophosphate;
+Adenosine monophosphate;
+Vidarabine phosphate"
+"18","1.6 Metabolism of other amino acids",0.111111111111111,"Glutathione metabolism","map00480",0.639858667820036,2,18,0.997517714363466,1,"L-Cysteine;
+Glutathione;
+D-Cysteine;
+cysteine;
+Glutathione;
+Cysteine;
+Glutathionate(1-)"
+"19","1.3 Lipid metabolism",0.111111111111111,"Glycerolipid Metabolism","map00561",0.639858667820036,2,18,0.997517714363466,1,"Hydroquinone;
+Palmitic acid;
+hexadecanoic acid;
+hexadecanoic acid"
+"20","1.1 Carbohydrate metabolism",0.105263157894737,"Pyruvate metabolism","map00620",0.666328656034176,4,38,0.997517714363466,1,"Dihydrolipoamide;
+Adenosine monophosphate;
+D-Malic acid;
+Glutathione;
+Malic acid;
+Adenosine monophosphate;
+Glutathione;
+6,8-disulfanyloctanimidic acid;
+MAL;
+(S)-malate;
+Glutathionate(1-);
+Vidarabine phosphate"
+"21","1.8 Metabolism of cofactors and vitamins",0.103448275862069,"Nicotinate and nicotinamide metabolism","map00760",0.677392393101525,3,29,0.997517714363466,1,"Nicotinic acid mononucleotide;
+Adenosine monophosphate;
+Nicotinamide ribotide;
+NAMN;
+Adenosine monophosphate;
+Vidarabine phosphate;
+[(2R,3S,4R,5R)-5-(3-Carboxypyridin-1-ium-1-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methyl hydrogen phosphate"
+"22","1.4 Nucleotide metabolism",0.102941176470588,"Purine metabolism","map00230",0.703061775456657,7,68,0.997517714363466,1,"Guanosine;
+Inosine;
+Cyclic AMP;
+Adenosine monophosphate;
+Arabinosylhypoxanthine;
+Ammonia;
+GMP;
+2'-Deoxyguanosine 5'-monophosphate;
+Adenosine monophosphate;
+Gua-Rib;
+guanosine 5'-monophosphate;
+cAMP;
+Ino;
+Cyclic AMP;
+Guanosine monophosphate;
+Vidarabine phosphate;
+9-beta-d-Arabinofuranosylguanine;
+Ara-HX;
+[(2R,5R)-5-(2-Amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate"
+"23","1.5 Amino acid metabolism",0.1,"Arginine and proline metabolism","map00330",0.715436073145278,5,50,0.997517714363466,1,"Succinic acid;
+Argininosuccinic acid;
+N(omega)-Hydroxyarginine;
+Adenosine monophosphate;
+Ammonia;
+Argininosuccinic acid;
+Butanedioic acid;
+Adenosine monophosphate;
+Butanedioic acid;
+Vidarabine phosphate;
+ARGININOSUCCINATE"
+"24","1.4 Nucleotide metabolism",0.0961538461538462,"Pyrimidine metabolism","map00240",0.748834978639449,5,52,0.997517714363466,1,"dCMP;
+Uridine;
+Ammonia;
+3'-AMP;
+dUMP;
+1-[(2R,3S,5R)-3,4-Dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidine-2,4-dione;
+Ura-Rib;
+3'-AMP;
+[(2R,5R)-5-(6-Aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate;
+[(2S,5S)-5-(2,4-Dioxopyrimidin-1-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate"
+"25","1.8 Metabolism of cofactors and vitamins",0.0869565217391304,"One carbon pool by folate","map00670",0.770884344931449,2,23,0.997517714363466,1,"N-Formyl-L-glutamic acid;
+Ammonia"
+"26","1.5 Amino acid metabolism",0.0857142857142857,"Histidine metabolism","map00340",0.79765644012942,3,35,0.997517714363466,1,"Adenosine monophosphate;
+Topaquinone;
+Ammonia;
+Adenosine monophosphate;
+Vidarabine phosphate"
+"27","1.8 Metabolism of cofactors and vitamins",0.08,"Pterine Biosynthesis","map00790",0.810600769187224,2,25,0.997517714363466,1,"Umanopterin;
+Dihydroneopterin phosphate;
+Neopterin;
+L-Threoneopterin;
+7,8-dihydroneopterin 3'-phosphate"
+"28","1.5 Amino acid metabolism",0.0784313725490196,"Valine, leucine and isoleucine degradation","map00280",0.869218741125571,4,51,0.997517714363466,1,"Succinic acid;
+Dihydrolipoamide;
+Methylmalonic acid;
+alpha-Ketoisovaleric acid;
+Butanedioic acid;
+3-methyl-2-oxo-butanoic acid;
+6,8-disulfanyloctanimidic acid;
+2-methyl-propanedioic acid;
+3-methyl-2-oxo-butanoic acid;
+Butanedioic acid"
+"29","1.6 Metabolism of other amino acids",0.0689655172413793,"beta-Alanine metabolism","map00410",0.87229183820009,2,29,0.997517714363466,1,"Topaquinone;
+Ammonia"
+"30","1.1 Carbohydrate metabolism",0.0588235294117647,"Propanoate metabolism","map00640",0.923618138872442,2,34,0.997517714363466,1,"Methylmalonic acid;
+Adenosine monophosphate;
+Adenosine monophosphate;
+2-methyl-propanedioic acid;
+Vidarabine phosphate"
+"31","1.1 Carbohydrate metabolism",0.0571428571428571,"Amino Sugar Metabolism","map00520",0.931252181220504,2,35,0.997517714363466,1,"N-Acetylneuraminic acid;
+N-Acetyl-a-neuraminic acid;
+Ammonia;
+3h-Sialic acid"
+"32","1.3 Lipid metabolism",0.0555555555555556,"Fatty acid Metabolism","map00071",0.938170733531442,2,36,0.997517714363466,1,"Palmitic acid;
+Adenosine monophosphate;
+hexadecanoic acid;
+Adenosine monophosphate;
+hexadecanoic acid;
+Vidarabine phosphate"
+"33","1.3 Lipid metabolism",0.05,"Primary bile acid biosynthesis","map00120",0.980591559572494,3,60,0.997517714363466,1,"Taurine;
+Palmitic acid;
+3'-AMP;
+hexadecanoic acid;
+TAU;
+3'-AMP;
+hexadecanoic acid;
+[(2R,5R)-5-(6-Aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] dihydrogen phosphate"
+"34","1.1 Carbohydrate metabolism",0.0377358490566038,"Starch and sucrose metabolism","map00500",0.990774578333326,2,53,0.997517714363466,1,"Sulfate;
+L-Altruronic acid;
+D-Glucuronic acid;
+Pectic acid;
+SO4(2-);
+(2R,3R,4R,5S,6S)-3,4,5,6-Tetrahydroxyoxane-2-carboxylic acid"
+"35","1.3 Lipid metabolism",0.03125,"Arachidonic Acid Metabolism","map00590",0.997517714363466,2,64,0.997517714363466,1,"Arachidonic acid;
+Glutathione;
+5Z,8Z,11Z,14Z-eicosatetraenoic acid;
+Glutathione;
+5,8,11,14-eicosatetraenoic acid;
+Glutathionate(1-);
+5,8,11,14-Icosatetraenoic Acid"

@@ -1,0 +1,166 @@
+```{r small_molecule_peaks}
+.libPaths("/stornext/Bioinf/data/lab_brain_cancer/users/t_lu/R/x86_64-pc-linux-gnu-library/4.2")
+library(Cardinal)
+library(data.table)
+library(ggplot2)
+library(transport)
+library(gridExtra)
+library(spatstat)
+data = readRDS("/stornext/Bioinf/data/lab_brain_cancer/projects/tme_spatial/metabolomics/221222_optimization/data/output/potential_list_long_2023-02-10.RDS")
+
+# Get peaks
+filefold = "/stornext/Bioinf/data/lab_brain_cancer/projects/tme_spatial/metabolomics/221222_optimization/data/output/"
+peak_b = list()
+for(i in 1:10){
+  filename = paste0("ATO",i,"_Tissue1_T_peaksum.RData")
+  load(paste0(filefold,filename))
+  peak_b[[i]] = peaksum_b_df
+}
+#######
+peak = list()
+for(i in 1:10){
+  filename = paste0("ATO",i,"_Tissue1_T_peaksum.RData")
+  
+  load(paste0(filefold,filename))
+  peak_b_temp =  peak_b[[i]]
+  temp_peaksum = peaksum_df %>% rowwise() %>% filter(all(abs(mz-peak_b_temp$mz)/mz>=50e-6))
+  if(i == 7 | 9 ){
+    temp_peaksum = temp_peaksum[-which.max(temp_peaksum$mean),]
+  }
+  peak[[i]] = temp_peaksum 
+}
+# function binning
+binning = function(a,b){
+  return(rep(a, as.integer(round(b,digit=0))))
+}
+
+# Assign names
+names = c("9-AA-",
+                "9-AA+",
+                "9-AA(2step)-",
+                "9-AA(2step)+",
+                "DHB+",
+                "DHB-",
+                "CHCA(2step)+",
+                "CHCA(2step)-",
+                "CHCA+",
+                "CHCA-")
+
+gg =list()
+for(i in 1:10){
+  data = data.frame(peak[[i]])
+  bins = data.frame(value = do.call(binning, list(data$mz,data$mean)))
+  gg[[i]]=ggplot(bins, aes(x=value)) +  
+    #geom_density(aes(y =..scaled..*max(data$max)),colour = "red",bw = 0.004,n=4096)+
+    geom_histogram(bins = nrow(data),
+                   binwidth = 0.4,
+                   colour = "red")+
+    theme(axis.line = element_line(colour = "black"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.border = element_blank(),
+          panel.background = element_blank())+
+    labs(y= "Average intensity", x = "m/z")+
+    ggtitle(paste0("The estimation of density of m/z peaks for ",names[i]))#+
+    #scale_y_continuous(trans = "log1p")
+}
+grid.arrange(gg[[1]],gg[[2]],gg[[3]],gg[[4]],gg[[5]],
+             gg[[6]],gg[[7]],gg[[8]],gg[[9]],gg[[10]], ncol=2)
+grid.arrange(gg[[1]],gg[[2]], ncol=2)
+dev.off()
+###########
+binning = function(a,b){
+  return(rep(a, as.integer(round(b,digit=0))))
+}
+
+#######################################
+setwd("~")
+tiff(file= "comparason_between_m_z_distribution_generated.png",
+     units="in", width=20, height=25, res=600, compression = "lzw")
+temp = grid.arrange(gg[[1]],gg[[2]],gg[[3]],gg[[4]],gg[[5]],
+                    gg[[6]],gg[[7]],gg[[8]],gg[[9]],gg[[10]], ncol=2)
+ggsave(file="comparason_between_m_z_distribution_generated.svg", plot=temp, width=12, height=8)
+print(temp)
+dev.off()
+
+
+
+```
+
+
+```{r small_molecule_peaks}
+.libPaths("/stornext/Bioinf/data/lab_brain_cancer/users/t_lu/R/x86_64-pc-linux-gnu-library/4.2")
+library(Cardinal)
+library(data.table)
+library(ggplot2)
+library(transport)
+library(gridExtra)
+library(spatstat)
+data = readRDS("/stornext/Bioinf/data/lab_brain_cancer/projects/tme_spatial/metabolomics/230303_lipids/Sarah_Best_Imaging_Lipids_MA-SB-436/output/potential_list_long_2023-03-15.RDS")
+
+# Get peaks
+filefold = "/stornext/Bioinf/data/lab_brain_cancer/projects/tme_spatial/metabolomics/230303_lipids/Sarah_Best_Imaging_Lipids_MA-SB-436/output/"
+filenames = list.files(path = filefold,
+                       pattern = "T_peaksum.RData")
+peak_b = list()
+for(i in filenames){
+  load(paste0(filefold,i))
+  peak_b[[i]] = peaksum_b_df
+}
+#######
+peak = list()
+for(i in filenames){
+  load(paste0(filefold,i))
+  peak_b_temp =  peak_b[[i]]
+  temp_peaksum = peaksum_df %>% rowwise() %>% filter(all(abs(mz-peak_b_temp$mz)/mz>=50e-6))
+  peak[[i]] = temp_peaksum 
+}
+# function binning
+binning = function(a,b){
+  return(rep(a, as.integer(round(b,digit=0))))
+}
+
+# Assign names
+names = c("9-AA-",
+                "9-AA+",
+                "CHCA(2step)-",
+                "CHCA(2step+")
+
+gg =list()
+for(i in 1:4){
+  data = data.frame(peak[[i]])
+  bins = data.frame(value = do.call(binning, list(data$mz,data$mean)))
+  gg[[i]]=ggplot(bins, aes(x=value)) +  
+    #geom_density(aes(y =..scaled..*max(data$max)),colour = "red",bw = 0.004,n=4096)+
+    geom_histogram(bins = nrow(data),
+                   binwidth = 0.4,
+                   colour = "red")+
+    theme(axis.line = element_line(colour = "black"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.border = element_blank(),
+          panel.background = element_blank())+
+    labs(y= "Average intensity", x = "m/z")+
+    ggtitle(paste0("The estimation of density of m/z peaks for ",names[i]))#+
+    #scale_y_continuous(trans = "log1p")
+}
+grid.arrange(gg[[1]],gg[[2]],gg[[3]],gg[[4]], ncol=2)
+grid.arrange(gg[[1]],gg[[2]], ncol=2)
+dev.off()
+###########
+binning = function(a,b){
+  return(rep(a, as.integer(round(b,digit=0))))
+}
+
+#######################################
+setwd("~")
+tiff(file= "comparason_between_m_z_distribution_generated.png",
+     units="in", width=20, height=25, res=600, compression = "lzw")
+temp = grid.arrange(gg[[1]],gg[[2]],gg[[3]],gg[[4]], ncol=2)
+ggsave(file="comparason_between_m_z_distribution_generated_lipids.svg", plot=temp, width=12, height=8)
+print(temp)
+dev.off()
+
+
+
+```
